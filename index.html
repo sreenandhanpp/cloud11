@@ -6,6 +6,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 	<title>Satner Portfolio</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -605,7 +607,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		$("#submit-form").submit((e)=>{
 			e.preventDefault()
 			$.ajax({
-				url:"https://script.google.com/macros/s/AKfycbxJ3UWXUAl4BxKsmtgX8cs9RR_ZfVgDgllQxuuiQsx9qXOZcCm9El2yrB7Ahuq0iEPX/exec",
+				url:"https://script.google.com/macros/s/AKfycbxNnay3yUmfqXCTSruRabf8uLr0Aga7YWIgADdIThzfEt_lwvmcTmLXvfSJtaU2WSu8Gg/exec",
 				data:$("#submit-form").serialize(),
 				method:"post",
 				success:function (response){
